@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+  ></script>
+  <!-- <script defer src="./assets/js/script.js"></script> -->
+    
+  
+    <!-- 
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  
+  
+  
+    <!-- 
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+    <title>SDU </title>
+</head>
+<body>
+    <header >
+    <div class="container">
+        <h1>Welcome </h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <div id="telebe cedveli">
+        <div class="container">
+            <h2>Davamiyyət və Bal Cədvəli</h2>
+    <table id="mainTable">
+        <thead>
+            <tr>
+                <th rowspan="2">Adlar</th>
+               
+                <th colspan="3">Davamiyyət </th>
+                <th colspan="4">Məşğələ</th>
+              
+                <th colspan="4">Kollektiv İş</th>
+               
+                <th colspan="3">Laboratoriya</th>
+                <th colspan="4">serbest is</th>
+                <th rowspan="2">Ümumi Bal</th>
+            </tr>
+            <tr>
+                <th>Mövzu Saatı</th>
+                <th>Dərs Saatı</th>
+                <th>Bal</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th> bal</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th> bal</th>
+                <th>Umumi labaratoriya isi</th>
+                <th>Verilen labaratoriya isi</th>
+                <th>Bal</th>
+
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+              
+              
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Şagird 1</td>
+                <td>45 saat</td>
+                <td>33</td>
+                <td>43</td>
+                <td>33</td>
+                <td>43</td>
+                <td>90</td>
+                <td>33</td>
+                <td>100</td>
+                <td>13</td>
+                <td>80</td>
+                <td>85</td>
+                <td>90</td>
+                <td> 31</td>
+                <td> 31</td>
+                <td>90</td>
+                <td>75</td>
+                <td>100</td>
+                
+            </tr>
+         
+        </tbody>
+    </table>
+
+        </div>
+    </div>
+
+<div class="container">
+    
+    <button id="addStudentBtn" >+ Add Student</button>
+</div>
+
+    <!-- Form Modal -->
+    <div id="formModal" class="modal" class="container">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Yeni Şagird Əlavə Edin</h2>
+            <form id="studentForm">
+                <label for="name">Ad:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+               
+                <label for="age">movzu saati:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+                <label for="age">ders saati:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+
+              
+                <label for="age">mesgele1:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+                <label for="age">mesgele2:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+                <label for="age">mesgele3:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+
+
+                <label for="age">kollekfum1:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+                <label for="age">kollekfum2:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+                <label for="age">kollekfum3:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+
+
+                
+                <label for="age">umumi labaratoriya isi:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+                <label for="age">verilen labaratoriya isi::</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+
+                
+                <label for="age">serbest is 1:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+                <label for="age">serbest is 2:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+                <label for="age">serbest is 3:</label>
+                <input type="number" id="age" name="age" min="1" required><br><br>
+
+                <button type="submit">Təsdiqlə</button>
+            </form>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>2024sdu davamiyet sayti</p>
+    </footer>
+  
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
