@@ -9,6 +9,19 @@
     defer
     src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
   ></script>
+  <script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.5/axios.min.js"
+  integrity="sha512-TjBzDQIDnc6pWyeM1bhMnDxtWH0QpOXMcVooglXrali/Tj7W569/wd4E8EDjk1CwOAOPSJon1VfcEt1BI4xIrA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+  crossorigin="anonymous"
+></script>
   <!-- <script defer src="./assets/js/script.js"></script> -->
     
   
@@ -49,70 +62,46 @@
     <div id="telebe cedveli">
         <div class="container">
             <h2>Davamiyyət və Bal Cədvəli</h2>
-    <table id="mainTable">
-        <thead>
-            <tr>
-                <th rowspan="2">Adlar</th>
-               
-                <th colspan="3">Davamiyyət </th>
-                <th colspan="4">Məşğələ</th>
-              
-                <th colspan="4">Kollektiv İş</th>
-               
-                <th colspan="3">Laboratoriya</th>
-                <th colspan="4">serbest is</th>
-                <th rowspan="2">Ümumi Bal</th>
-            </tr>
-            <tr>
-                <th>Mövzu Saatı</th>
-                <th>Dərs Saatı</th>
-                <th>Bal</th>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th> bal</th>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th> bal</th>
-                <th>Umumi labaratoriya isi</th>
-                <th>Verilen labaratoriya isi</th>
-                <th>Bal</th>
-
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-              
-              
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Şagird 1</td>
-                <td>45 saat</td>
-                <td>33</td>
-                <td>43</td>
-                <td>33</td>
-                <td>43</td>
-                <td>90</td>
-                <td>33</td>
-                <td>100</td>
-                <td>13</td>
-                <td>80</td>
-                <td>85</td>
-                <td>90</td>
-                <td> 31</td>
-                <td> 31</td>
-                <td>90</td>
-                <td>75</td>
-                <td>100</td>
-                
-            </tr>
-         
-        </tbody>
-    </table>
-
+            <table id="mainTable">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Adlar</th>
+                        <th colspan="3">Davamiyyət</th>
+                        <th colspan="4">Məşğələ</th>
+                        <th colspan="4">Kollektiv İş</th>
+                        <th colspan="3">Laboratoriya</th>
+                        <th colspan="4">Serbest İş</th>
+                        <th rowspan="2">Ümumi Bal</th>
+                        <th rowspan="2">Actions</th>
+                    </tr>
+                    <tr>
+                        <th>Mövzu Saatı</th>
+                        <th>Dərs Saatı</th>
+                        <th>Bal</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>Bal</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>Bal</th>
+                        <th>Ümumi Labaratoriya İşi</th>
+                        <th>Verilən Labaratoriya İşi</th>
+                        <th>Bal</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th> Bal</th>
+                        
+                    </tr>
+                </thead>
+                <tbody id="studentTableBody">
+                    <!-- Formdan gələn məlumatlar buraya əlavə olunacaq -->
+                </tbody>
+            </table>
         </div>
+        
     </div>
 
 <div class="container">
@@ -126,46 +115,21 @@
             <span class="close">&times;</span>
             <h2>Yeni Şagird Əlavə Edin</h2>
             <form id="studentForm">
-                <label for="name">Ad:</label>
-                <input type="text" id="name" name="name" required><br><br>
-
-               
-                <label for="age">movzu saati:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-                <label for="age">ders saati:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-
-              
-                <label for="age">mesgele1:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-                <label for="age">mesgele2:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-                <label for="age">mesgele3:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-
-
-                <label for="age">kollekfum1:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-                <label for="age">kollekfum2:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-                <label for="age">kollekfum3:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-
-
-                
-                <label for="age">umumi labaratoriya isi:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-                <label for="age">verilen labaratoriya isi::</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-
-                
-                <label for="age">serbest is 1:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-                <label for="age">serbest is 2:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-                <label for="age">serbest is 3:</label>
-                <input type="number" id="age" name="age" min="1" required><br><br>
-
+                <label>Ad: <input type="text" id="name" required></label><br>
+                <label>Mövzu Saatı: <input type="number" id="movzuSaati" min="1" required></label><br>
+                <label>Dərs Saatı: <input type="number" id="dersSaati" min="1" required></label><br>
+                <label>Dav.Balı: <input type="number" id="davBal" min="0" required></label><br>
+                <label>Məşğələ 1: <input type="number" id="mesgele1" min="0" required></label><br>
+                <label>Məşğələ 2: <input type="number" id="mesgele2" min="0" required></label><br>
+                <label>Məşğələ 3: <input type="number" id="mesgele3" min="0" required></label><br>
+                <label>Kollektiv İş 1: <input type="number" id="kollekfum1" min="0" required></label><br>
+                <label>Kollektiv İş 2: <input type="number" id="kollekfum2" min="0" required></label><br>
+                <label>Kollektiv İş 3: <input type="number" id="kollekfum3" min="0" required></label><br>
+                <label>Labaratoriya İşi: <input type="number" id="labIsi" min="0" required></label><br>
+                <label>Verilən Lab İşi: <input type="number" id="verLabIsi" min="0" required></label><br>
+                <label>Serbest İş 1: <input type="number" id="serbest1" min="0" required></label><br>
+                <label>Serbest İş 2: <input type="number" id="serbest2" min="0" required></label><br>
+                <label>Serbest İş 3: <input type="number" id="serbest3" min="0" required></label><br>
                 <button type="submit">Təsdiqlə</button>
             </form>
         </div>
@@ -177,5 +141,15 @@
     </footer>
   
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/adstudent.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
