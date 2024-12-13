@@ -1,24 +1,6 @@
 {
   "products": [
     {
-      "id": "55",
-      "name": "Esprit ",
-      "movzuSaati": 45,
-      "dersSaati": 66.64,
-      "mesgele1": 2,
-      "mesgele2": 3,
-      "mesgele3": 4,
-      "kollekfum1": 2,
-      "kollekfum2": 3,
-      "kollekfum3": 4,
-      "labIsi": 2,
-      "verLabIsi": 3,
-      "serbest1": 4,
-      "serbest2": 4,
-      "serbest3": 4
-    },
-    {
-      "id": "f07c",
       "name": "guln",
       "movzuSaati": 34,
       "dersSaati": 1,
@@ -32,7 +14,42 @@
       "verLabIsi": 4,
       "serbest1": 7,
       "serbest2": 4,
-      "serbest3": 4
+      "serbest3": 9,
+      "id": "f07c"
+    },
+    {
+      "id": "1f04",
+      "name": "fatime",
+      "movzuSaati": 45,
+      "dersSaati": 40,
+      "mesgele1": 9,
+      "mesgele2": 9,
+      "mesgele3": 9,
+      "kollekfum1": 8,
+      "kollekfum2": 9,
+      "kollekfum3": 8,
+      "labIsi": 9,
+      "verLabIsi": 7,
+      "serbest1": 8,
+      "serbest2": 8,
+      "serbest3": 10
+    },
+    {
+      "id": "37ae",
+      "name": "fat",
+      "movzuSaati": 45,
+      "dersSaati": 40,
+      "mesgele1": 9,
+      "mesgele2": 9,
+      "mesgele3": 8,
+      "kollekfum1": 8,
+      "kollekfum2": 9,
+      "kollekfum3": 8,
+      "labIsi": 9,
+      "verLabIsi": 7,
+      "serbest1": 8,
+      "serbest2": 8,
+      "serbest3": 10
     }
   ]
 }

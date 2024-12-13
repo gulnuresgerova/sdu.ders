@@ -164,3 +164,93 @@ body {
   ::placeholder{
     color: #0c7373;
   }
+
+  /* Seçilmiş element üçün stil */
+.selected {
+    background-color: #4CAF50; /* Yaşıl rəng */
+    color: white;
+    border-radius: 50%;
+    padding: 50px;
+
+  }
+  .clickable-box {
+    cursor: pointer;
+    padding: 11px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .clickable-box:hover {
+    background-color: #f0f0f0;
+  }
+
+  .modal {
+    display: none; /* Başlanğıcda gizli */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modal {
+    display: none; /* Başlanğıcda gizli */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  

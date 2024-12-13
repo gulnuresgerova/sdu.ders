@@ -62,7 +62,34 @@
     <div id="telebe cedveli">
         <div class="container">
             <h2>Davamiyyət və Bal Cədvəli</h2> <br>
-            <input type="search" placeholder="Search By Name" class="search" />
+            <input type="search" placeholder="Search By Name" class="search" /> <br>
+            <td>
+                <div class="clickable-box" id="mesgeleBox" onclick="toggleSelection(this, 'mesgele')">
+                  Məşğələ
+                </div>
+              </td>
+              <td>
+                <div class="clickable-box" id="kolekfumBox" onclick="toggleSelection(this, 'kolekfum')">
+                  Kollektiv İş
+                </div>
+              </td>
+              <td>
+                <div class="clickable-box" id="serbestBox" onclick="toggleSelection(this, 'serbest')">
+                  Serbest İş
+                </div>
+              </td>
+              <td>
+                <div class="clickable-box" id="davamiBox" onclick="toggleSelection(this, 'davami')">
+                  Davamiyyət
+                </div>
+              </td>
+              <td>
+                <div class="clickable-box" id="labBox" onclick="toggleSelection(this, 'lab')">
+                  Laboratoriya
+                </div>
+              </td>
+              
+            <!-- <td onclick="editField(${student.id}, 'dersSaati')">${student.dersSaati || "-"}</td> -->
             <table id="mainTable">
                 <thead>
                     <tr>
