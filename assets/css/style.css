@@ -41,9 +41,13 @@ body {
         /* padding: 10px; */
         background-color: #4cafaf;
         color: rgb(0, 0, 0);
-        position: fixed;
+        /* position: fixed; */
         width: 100%;
         bottom: 0;
+        max-width: 1200px;
+        padding: 30px 10px;
+        margin-top: 30px;
+
     }
     
     
