@@ -79,6 +79,10 @@ body {
     
     /* 
     add student section */
+    #addStudentBtn{
+        margin: 20px 30px 80px 10px;
+
+    }
    
     .modal {
         display: none; 
@@ -146,3 +150,17 @@ body {
         box-sizing: border-box; 
     }
     /* addd student finish */
+    /* search*/
+.search{
+    margin: 50px 0;
+    width: 280px;
+    height: 40px;
+    padding: 10px 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    border: 1px solid  #0c7373;
+    font-weight: 500;
+  }
+  ::placeholder{
+    color: #0c7373;
+  }
