@@ -1,23 +1,6 @@
 {
   "products": [
     {
-      "name": "guln",
-      "movzuSaati": 34,
-      "dersSaati": 1,
-      "mesgele1": 2,
-      "mesgele2": 3,
-      "mesgele3": 4,
-      "kollekfum1": 4,
-      "kollekfum2": 44,
-      "kollekfum3": 4,
-      "labIsi": 3,
-      "verLabIsi": 4,
-      "serbest1": 7,
-      "serbest2": 4,
-      "serbest3": 9,
-      "id": "f07c"
-    },
-    {
       "id": "1f04",
       "name": "fatime",
       "movzuSaati": 45,
